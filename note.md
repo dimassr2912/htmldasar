@@ -1,4 +1,4 @@
-Ixternet: Mekanisme komunikasi antar komputer
+Internet: Mekanisme komunikasi antar komputer
 
 Web: Kumpulan informasi yang tersedia dalam sebuah komputer yang terkoneksi secara terus menerus melalui internet
 Web berjalan di aplikasi web server
