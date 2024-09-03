@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table style="border: 1px solid black;">
+        <colgroup>
+            <col span="2" style="background-color: yellow;"> <!-- col 1 dan 2-->
+            <col style="background-color: aqua;">
+        </colgroup>
+        <thead>
+            <tr>
+                <!-- <th>Nama Depan</th> -->
+                <!-- <th>Nama Belakang</th> -->
+                 <th colspan="2">Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dimas Setyawan</td>
+                <td>Ramadhansyah</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Ira Meidiana</td>
+                <td>Putri</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td rowspan="2">Total</td>
+                <td>Total</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Rata-rata</td>
+                <td>100</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+<!-- 
+    Table: Membuat table
+    tr: Membuat row 
+    th: Membuat header table
+    td: Membuat kolom
+    caption: Keterangan table
+    thead: Grup header table
+    tbody: Grup isi table
+    tfoot: Grup footer table    
+    colgroup: Membuat grup kolom
+    colspan: menggabungkan kolom
+    rowspan: Menggabungkan baris
+-->
